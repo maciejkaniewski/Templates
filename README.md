@@ -12,7 +12,7 @@ Templates is a project I realized in the second semester of my studies within th
 ## Features
 
 - Solve systems of equations with a user-defined number of unknowns
-- Solve equation systems in real or imaginary domain
+- Solve equation systems in real or complex domain
 - Load equation systems as text files
 - Identification of the domain of equation systems based on the input file
 
