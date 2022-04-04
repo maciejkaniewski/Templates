@@ -37,6 +37,10 @@ Run `make` command and execute the program. Redirect the data file to the progra
     ./Templates < ../data/4_SYSTEM5C.DAT
 
 If the data file has not been redirected to the program input, the data has to be entered manually, which is not a very convenient method.
+If at the beginning of the input data file there is no character identifying the system domain the following message will be displayed:
+
+    No options to define the type of input data.
+    Available:  R, C.
 
 ## Usage
 
@@ -70,20 +74,6 @@ The size of the equation can be changed in the `vector.hh` file:
 ```
 
 After changing the `SIZE` value, the program must be recompiled.
-
-### Data files format
-
-Based on the example below, you can create your own data files.
-
-![screenshot](./data/data.png "Data_file")
-
-The first line defines the domain in which the calculations will be performed. The next lines are the coefficient values. The last line in the file is the constant values of the equations.
-
-If at the beginning of the input data file there is no character identifying the system domain the following message will be displayed:
-
-    No options to define the type of input data.
-    Available:  R, C.
-
 
 ## Concepts I Learned
 
